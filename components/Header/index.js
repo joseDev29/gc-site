@@ -10,7 +10,7 @@ export const Header = () => {
       <Logo>
         <div className="util"></div>
         <Link href="/">
-          <A>
+          <A onClick={() => setDropdown(false)}>
             <img className="logo-icon" src="/gc-logo-navbar.svg" alt="" />
           </A>
         </Link>
@@ -25,22 +25,22 @@ export const Header = () => {
       <Ul down={dropdown}>
         <li>
           <Link href="/servicios">
-            <A>Servicios</A>
+            <A onClick={() => setDropdown(false)}>Servicios</A>
           </Link>
         </li>
         <li>
           <Link href="/productos">
-            <A>Productos</A>
+            <A onClick={() => setDropdown(false)}>Productos</A>
           </Link>
         </li>
         <li>
           <Link href="/contacto">
-            <A>Contacto</A>
+            <A onClick={() => setDropdown(false)}>Contacto</A>
           </Link>
         </li>
         <li>
           <Link href="/nosotros">
-            <A>Nosotros</A>
+            <A onClick={() => setDropdown(false)}>Nosotros</A>
           </Link>
         </li>
       </Ul>

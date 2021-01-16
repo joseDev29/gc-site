@@ -1,9 +1,7 @@
-import styled from "styled-components";
-
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 
-const Main = styled.main``;
+import { Main } from "./styles";
 
 export const Layout = ({ children, ...props }) => {
   return (

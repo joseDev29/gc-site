@@ -18,7 +18,7 @@ const Home = () => {
     }
 
     && .bienvenido {
-      margin-top: 2vh;
+      margin-top: 2.5%;
       font-size: 8vw;
     }
 

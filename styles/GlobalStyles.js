@@ -20,14 +20,14 @@ body{
     height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    overflow-x:hidden;
-    overflow-y:scroll;
+    overflow: hidden;
 }
 
 #__next{
     width: 100%;
     height: 100%;
     max-width: 100%;
+    overflow-y: scroll;
 }
 
 a{

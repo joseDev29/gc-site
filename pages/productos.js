@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import { css } from "styled-components";
 import { CoverPage } from "../components/CoverPage";
+import { useScrollTop } from "../hooks/useScrollTop";
 
 const Productos = () => {
   const coverStyles = css`
@@ -14,6 +15,9 @@ const Productos = () => {
       max-width: 90%;
     }
   `;
+
+  useScrollTop();
+
   return (
     <>
       <Head>
